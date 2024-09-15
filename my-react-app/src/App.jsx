@@ -1,13 +1,13 @@
-import Header from './Header.jsx'
-import Footer from './Footer.jsx' 
-import Food   from './Food.jsx'
+import UserGreeting from "./UserGreeting"
+
 function App() {
   return(
     <>
-    <Header></Header>
-    <Food></Food>
-    <Food/>
-    <Footer></Footer>
+     <UserGreeting isLoggedIn={false} username="BroCode"></UserGreeting>
+     <UserGreeting>
+     </UserGreeting>
+     
+
     </>
   )
 }
