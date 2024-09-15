@@ -1,13 +1,12 @@
-import Header from './Header.jsx'
-import Footer from './Footer.jsx' 
-import Food   from './Food.jsx'
+import Student from './Student.jsx'
 function App() {
   return(
     <>
-    <Header></Header>
-    <Food></Food>
-    <Food/>
-    <Footer></Footer>
+      <Student name = "Rigved" age = {22} isStudent = {true}></Student>
+      <Student name = "Vareun" age = {22} isStudent = {false}></Student>
+      <Student name = "Sarah" age = {23} isStudent = {true}></Student>
+      <Student name = "someone" age = {23} isStudent = {true}></Student>
+      <Student name = "someo1ne"></Student>
     </>
   )
 }
