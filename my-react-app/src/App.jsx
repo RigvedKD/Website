@@ -1,13 +1,9 @@
-import Header from './Header.jsx'
-import Footer from './Footer.jsx' 
-import Food   from './Food.jsx'
+import MyComponent from "./MyComponent"
+import Counter from "./Counter"
 function App() {
   return(
     <>
-    <Header></Header>
-    <Food></Food>
-    <Food/>
-    <Footer></Footer>
+      <MyComponent></MyComponent>
     </>
   )
 }
